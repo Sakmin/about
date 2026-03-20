@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
   title: `${resumeData.personal.name} - ${resumeData.personal.title}`,
-  description: resumeData.personal.tagline,
+  description: "Delivery Manager | Head of PMO | Senior Project Manager",
 };
 
 export default function RootLayout({
