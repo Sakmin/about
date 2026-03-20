@@ -52,10 +52,6 @@ export default function Experience() {
                   </ul>
                 </>
               )}
-              
-              {job.tools && (
-                <div className="experience-tools">{job.tools}</div>
-              )}
             </div>
           </div>
         ))}
