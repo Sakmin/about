@@ -1,7 +1,8 @@
 export const resumeData = {
   personal: {
     name: "САКМИН СЕРГЕЙ",
-    title: "DELIVERY MANAGER | HEAD OF PMO | SENIOR PROJECT MANAGER",
+    title: "Head of Delivery / Head of PMO / Delivery Director",
+    summary: "Delivery / Production leader с 11+ годами в IT и опытом управления разработкой, портфелем проектов и распределенными командами до 50 человек. Запускал и масштабировал digital-продукты в iGaming, fintech, govtech, industrial software и FMCG. Сильные стороны: delivery excellence, people management, process building, portfolio governance, crisis scaling, complex integrations.",
     age: 36,
     email: "sergeyulsk@gmail.com",
     telegram: "@sergioulsk",
