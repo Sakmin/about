@@ -89,6 +89,18 @@ export default function Sidebar() {
         </div>
       </div>
 
+      {/* Awards */}
+      <div className="sidebar-section">
+        <div className="sidebar-header">Награды</div>
+        <div className="sidebar-content">
+          <ul className="qualities-list">
+            {resumeData.awards.map((award, index) => (
+              <li key={index}>{award}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
       {/* Languages */}
       <div className="sidebar-section">
         <div className="sidebar-header">Языки</div>
