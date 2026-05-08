@@ -33,7 +33,7 @@ export default function Experience() {
               
               {job.functions && job.functions.length > 0 && (
                 <>
-                  <div className="experience-subtitle">Функции</div>
+                  <div className="experience-subtitle">Зоны ответственности</div>
                   <ul className="experience-list">
                     {job.functions.map((item, i) => (
                       <li key={i}>{item}</li>
@@ -44,7 +44,7 @@ export default function Experience() {
               
               {job.achievements && job.achievements.length > 0 && (
                 <>
-                  <div className="experience-subtitle">{job.sectionTitle || "Достижения"}</div>
+                  <div className="experience-subtitle">{job.sectionTitle || "Ключевые достижения"}</div>
                   <ul className="experience-list">
                     {job.achievements.map((item, i) => (
                       <li key={i}>{item}</li>
