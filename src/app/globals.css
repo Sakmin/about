@@ -136,6 +136,22 @@ html {
   text-align: right;
 }
 
+/* Tool Groups */
+.tools-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tools-group-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
 /* Tools List */
 .tools-list {
   display: flex;

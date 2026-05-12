@@ -69,9 +69,16 @@ export default function Sidebar() {
       <div className="sidebar-section">
         <div className="sidebar-header">Инструменты</div>
         <div className="sidebar-content">
-          <div className="tools-list">
-            {resumeData.tools.map((tool, index) => (
-              <div key={index} className="tool-item">{tool}</div>
+          <div className="tools-groups">
+            {resumeData.tools.map((group, index) => (
+              <div key={index} className="tools-group">
+                <div className="tools-group-title">{group.category}</div>
+                <div className="tools-list">
+                  {group.items.map((tool, toolIndex) => (
+                    <div key={toolIndex} className="tool-item">{tool}</div>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>

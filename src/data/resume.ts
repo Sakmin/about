@@ -23,8 +23,22 @@ export const resumeData = {
     { language: "Английский", level: "B2 - Выше среднего", dots: 4 },
   ],
   tools: [
-    "Asana", "Atlassian Suite", "Bitrix 24", "Axure", "Google Analytics", 
-    "UML", "Google Workspace", "Yandex 360", "SQL", "Lucidchart", "AI-powered tools"
+    {
+      category: "Delivery / PM",
+      items: ["Jira", "Confluence", "Asana", "Bitrix24"],
+    },
+    {
+      category: "Analytics / Product",
+      items: ["Google Analytics", "SQL", "Product metrics"],
+    },
+    {
+      category: "Documentation / Modeling",
+      items: ["UML", "Axure", "Lucidchart"],
+    },
+    {
+      category: "AI-assisted workflows",
+      items: ["Codex", "AI-powered tools"],
+    },
   ],
   qualities: [
     "Delivery management",
