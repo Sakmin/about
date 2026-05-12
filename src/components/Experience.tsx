@@ -44,7 +44,7 @@ export default function Experience() {
               
               {job.achievements && job.achievements.length > 0 && (
                 <>
-                  <div className="experience-subtitle">{job.sectionTitle || "Ключевые достижения"}</div>
+                  <div className="experience-subtitle">{(job as { sectionTitle?: string }).sectionTitle || "Ключевые достижения"}</div>
                   <ul className="experience-list">
                     {job.achievements.map((item, i) => (
                       <li key={i}>{item}</li>
