@@ -30,6 +30,10 @@ export default function Experience() {
               ) : (
                 <div className="experience-role">{job.role}</div>
               )}
+
+              {'description' in job && job.description && (
+                <div className="experience-description">{job.description}</div>
+              )}
               
               {job.functions && job.functions.length > 0 && (
                 <>

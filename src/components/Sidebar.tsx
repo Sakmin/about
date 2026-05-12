@@ -84,9 +84,9 @@ export default function Sidebar() {
         </div>
       </div>
 
-      {/* Qualities */}
+      {/* Competencies */}
       <div className="sidebar-section">
-        <div className="sidebar-header">Качества</div>
+        <div className="sidebar-header">Компетенции</div>
         <div className="sidebar-content">
           <ul className="qualities-list">
             {resumeData.qualities.map((quality, index) => (
